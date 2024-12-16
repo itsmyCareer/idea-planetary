@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Idea Planetary</title>
+    <link>https://blog.itsmyplanetary.me/tags/</link>
+    <description>Recent content in Tags on Idea Planetary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 15 Dec 2024 21:01:00 +0900</lastBuildDate><atom:link href="https://blog.itsmyplanetary.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>영화</title>
+      <link>https://blog.itsmyplanetary.me/tags/%EC%98%81%ED%99%94/</link>
+      <pubDate>Sun, 15 Dec 2024 21:01:00 +0900</pubDate>
+      
+      <guid>https://blog.itsmyplanetary.me/tags/%EC%98%81%ED%99%94/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>일상</title>
+      <link>https://blog.itsmyplanetary.me/tags/%EC%9D%BC%EC%83%81/</link>
+      <pubDate>Sun, 15 Dec 2024 21:01:00 +0900</pubDate>
+      
+      <guid>https://blog.itsmyplanetary.me/tags/%EC%9D%BC%EC%83%81/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>⭐️</title>
+      <link>https://blog.itsmyplanetary.me/tags/%EF%B8%8F/</link>
+      <pubDate>Fri, 13 Dec 2024 14:22:59 +0900</pubDate>
+      
+      <guid>https://blog.itsmyplanetary.me/tags/%EF%B8%8F/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>첫글</title>
+      <link>https://blog.itsmyplanetary.me/tags/%EC%B2%AB%EA%B8%80/</link>
+      <pubDate>Fri, 13 Dec 2024 14:22:59 +0900</pubDate>
+      
+      <guid>https://blog.itsmyplanetary.me/tags/%EC%B2%AB%EA%B8%80/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,23 @@
+baseURL = 'https://blog.itsmyplanetary.me/'
+DefaultContentLanguage = "ko"
+languageCode = 'ko-kr'
+title = 'Idea Planetary'
+theme = 'diary'
+
+
+[taxonomies]
+   category = "categories"
+   tag = "tags"
+
+[[menu.main]]
+url = "/categories"
+name = "Categories"
+weight = 2
+[[menu.main]]
+url = "/tags"
+name = "Tags"
+weight = 3
+[[menu.main]]
+url = "/posts"
+name = "Archive"
+weight = 1

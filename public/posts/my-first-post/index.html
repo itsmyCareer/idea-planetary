@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<title>시작이 반이다</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="첫번째 게시글.">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.f53596ac2d103afa8e6651c80028ba7be4217bfcb7ec22be66300f2342da59f6.css" integrity="sha256-9TWWrC0QOvqOZlHIACi6e&#43;Qhe/y37CK&#43;ZjAPI0LaWfY=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Tags
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 목차 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%ea%b0%91%ec%9e%90%ea%b8%b0-%ec%8b%9c%ec%9e%91%ed%95%98%ea%b2%8c-%eb%90%9c-hugo-%eb%b8%94%eb%a1%9c%ea%b7%b8" class="nav-갑자기-시작하게-된-hugo-블로그">
+									갑자기 시작하게 된 hugo 블로그
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%eb%ad%98-%ec%93%b8%ea%b9%8c" class="nav-뭘-쓸까">
+									뭘 쓸까?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%ea%b7%b8%eb%9e%98%ec%84%9c-%eb%ad%98%ec%93%b8%ea%b9%8c" class="nav-그래서-뭘쓸까">
+									그래서 뭘쓸까…
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%ec%8b%9c%ec%9e%91%ec%9d%b4-%eb%b0%98%ec%9d%b4%eb%8b%a4" class="nav-시작이-반이다">
+									시작이 반이다….?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://blog.itsmyplanetary.me/">
+            Idea Planetary
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://blog.itsmyplanetary.me/">
+        <div class="single-column-header-title">Idea Planetary</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    시작이 반이다
+                    
+                    <div class="post-subtitle">
+                        첫번째 게시글.
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2024-12-13 14:22
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/%EC%9D%BC%EA%B8%B0">일기</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%EC%B2%AB%EA%B8%80">첫글</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%EF%B8%8F">⭐️</a>
+                                &nbsp;
+                            
+                                <a href="/tags/%EC%9D%BC%EC%83%81">일상</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="갑자기-시작하게-된-hugo-블로그">갑자기 시작하게 된 hugo 블로그</h1>
+<p>내가 블로그를 시작하려고 시작했던건 사실 이번이 처음이 아니다. 사실 이번에도 언제까지, 얼마나 할지 잘 모른다.
+네이버 블로그도, 티스토리도, 노션도 전부 사용해봤지만 불편하기도 하고 사실 내가 귀찮아서 안썼다.
+이번에도 내가 당연히 귀찮아 하겠지만 <strong>개인 웹사이트</strong>를 다시 성공적으로 인터넷 세상에 배포하면서 블로그를 다시 써보고 싶었다.
+그 중 Medium이 가장 마음에 들었지만, 있는게 이상한 미래의 내 글을 읽는 사람들이 그 서비스를 가입하지 않고서는 한달에 읽을 수 있는 양이 정해져 있다고해서, 고민도 없이 포기를 하게 됐다.</p>
+<p>Medium의 가장 마음에 드는점은 마크다운 형식의 문서 작성의 편리함과 깔끔한 디자인, 광고 없음이었는데 이걸 대체할 만한 것을 찾다가 원래 유명했었던 <strong>Hugo</strong>를 찾게 되었고 테마도 내가 선정했다. <em>시작은 괜찮다 마음에 든다</em>
+물론 블로그에 포스트를 할 때 웹에서 작성 후 올리는 방식이 아니라, 직접 마크다운 파일을 수정해가며 작업을 진행해야 하기에 조금 불편할수도 있을텐데, 나는 마크다운 작성툴 Typora도 가지고 있겠다 제대로 구축해서 써볼까 한다.</p>
+<hr>
+<h1 id="뭘-쓸까">뭘 쓸까?</h1>
+<p>갑자기 든 생각인데, 원래는 영어로 모든 블로그를 작성하고 싶었다. Notion의 프로젝트나 새로 알게 된 정보들, 일정 관리에 관한 내용은 전부 영문으로 작성중이지만 단지 내 생각을 작성하고 일기를 공유하는데에 있어 과연 영문으로 쓰면 안 그래도 쓰기 귀찮아하는 것을 내가 계속 할 수 있을것이라는 자신이 아예 들지 않는다..</p>
+<h2 id="그래서-뭘쓸까">그래서 뭘쓸까&hellip;</h2>
+<p>일단은 일기 형식과 에세이 형식으로 쓸까 한다. 단순히 내가 오늘 무엇을 개발을 했는지 정도는 일기 형태로 쓸수 있지만, 너무 코딩에 대한 내용이 많아진다면 개발블로그가 되는것이고 그건 이미 나의 Notion 페이지가 대신해 주고 있다. 여기는 정말 내 생각과 뭘 했는지를 쓰고 싶다.</p>
+<hr>
+<h1 id="시작이-반이다">시작이 반이다&hellip;.?</h1>
+<p>무언가를 시작할 때 사람들은 시작이 반이라고 이야기를 하곤 한다. 사실 틀린 말은 아니라고 생각한다. 새로운 도전을 하고 새로운 것을 접하는 좋아하는 나도 나이가 조금씩 들수록 <strong>&ldquo;시간&rdquo;</strong> 이라는 자원이 더욱 더 중요하게 여겨지기 때문에 시작 자체를 두려워 하는 경우가 생긴다. 다른 사람들은 더 그럴거라고도 생각한다. 논리적으로 따지지 않더라도 동기부여와 시작을 해서 앞으로 나아가야 할 사람에게 원동력이 돼 줄수도 있을거 같다.
+딱 내가 지금 생각도 많은 상황에 연말이라 회사 일도 너무 많은데 스스로 글 작성이라는 힘든길을 선택한게 아닐까 생각하지만 이때 시작한게 오히려 좋을수도.. 라는 원영적사고로 한번 글을 써보자.</p>
+<p>첫번째 글은 일기라고 하기 그렇기 때문에 하나 더 쓰고 싶은데, 오늘은 글을 과연 하나 더 쓸수 있을까?</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">최종 수정: 2024-12-13</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/posts/241213/">
+			다음글<br>특이한 삶?
+                </a>
+                
+                
+                
+                <a class="older-posts">
+			이전글<br>이전글이 없습니다.
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+                <p style="opacity: 0.6" align="center">
+                    <small>댓글 비활성화.</small>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://blog.itsmyplanetary.me/">
+    
+        <div class="nav-title">
+            Idea Planetary
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Tags
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2024 Idea Planetary
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 목차 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%ea%b0%91%ec%9e%90%ea%b8%b0-%ec%8b%9c%ec%9e%91%ed%95%98%ea%b2%8c-%eb%90%9c-hugo-%eb%b8%94%eb%a1%9c%ea%b7%b8" class="nav-갑자기-시작하게-된-hugo-블로그">
+									갑자기 시작하게 된 hugo 블로그
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%eb%ad%98-%ec%93%b8%ea%b9%8c" class="nav-뭘-쓸까">
+									뭘 쓸까?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%ea%b7%b8%eb%9e%98%ec%84%9c-%eb%ad%98%ec%93%b8%ea%b9%8c" class="nav-그래서-뭘쓸까">
+									그래서 뭘쓸까…
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%ec%8b%9c%ec%9e%91%ec%9d%b4-%eb%b0%98%ec%9d%b4%eb%8b%a4" class="nav-시작이-반이다">
+									시작이 반이다….?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2024 Idea Planetary
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

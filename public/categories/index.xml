@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on Idea Planetary</title>
+    <link>https://blog.itsmyplanetary.me/categories/</link>
+    <description>Recent content in Categories on Idea Planetary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Sun, 15 Dec 2024 21:01:00 +0900</lastBuildDate><atom:link href="https://blog.itsmyplanetary.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>일기</title>
+      <link>https://blog.itsmyplanetary.me/categories/%EC%9D%BC%EA%B8%B0/</link>
+      <pubDate>Sun, 15 Dec 2024 21:01:00 +0900</pubDate>
+      
+      <guid>https://blog.itsmyplanetary.me/categories/%EC%9D%BC%EA%B8%B0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

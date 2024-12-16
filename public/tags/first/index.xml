@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>first on Idea Planetary</title>
+    <link>http://blog.itsmyplanetary.me/tags/first/</link>
+    <description>Recent content in first on Idea Planetary</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ko-kr</language>
+    <lastBuildDate>Fri, 13 Dec 2024 14:22:59 +0900</lastBuildDate><atom:link href="http://blog.itsmyplanetary.me/tags/first/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>시작이 반이다</title>
+      <link>http://blog.itsmyplanetary.me/posts/my-first-post/</link>
+      <pubDate>Fri, 13 Dec 2024 14:22:59 +0900</pubDate>
+      
+      <guid>http://blog.itsmyplanetary.me/posts/my-first-post/</guid>
+      <description>갑자기 시작하게 된 hugo 블로그 내가 블로그를 시작하려고 시작했던건 사실 이번이 처음이 아니다. 사실 이번에도 언제까지, 얼마나 할지 잘 모른다. 네이버 블로그도, 티스토리도, 노션도 전부 사용해봤지만 불편하기도 하고 사실 내가 귀찮아서 안썼다. 이번에도 내가 당연히 귀찮아 하겠지만 개인 웹사이트를 다시 성공적으로 인터넷 세상에 배포하면서 블로그를 다시 써보고 싶었다. 그 중 Medium이 가장 마음에 들었지만, 있는게 이상한 미래의 내 글을 읽는 사람들이 그 서비스를 가입하지 않고서는 한달에 읽을 수 있는 양이 정해져 있다고해서, 고민도 없이 포기를 하게 됐다.</description>
+    </item>
+    
+  </channel>
+</rss>
