@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="ko"><head>
+<title>뭐해야하지</title>
+
+
+
+
+<meta charset="utf-8">
+<meta name="X-UA-Compatible" content="IE=edge">
+<meta name="google-site-verification" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=5, user-scalable=5" name="viewport">
+<meta content="telephone=no" name="format-detection">
+<meta name="description" content="또 롤해야지 뭐">
+<meta name="renderer" content="webkit">
+<meta name="theme-color" content="#ffffff">
+
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+<link rel="icon" href="https://blog.itsmyplanetary.me/images/favicon.ico">
+
+
+
+      <script src="/js/toc.js"></script>
+    
+    <link type="text/css" rel="stylesheet" href="/vendor/css/bootstrap.min.css">
+
+<link rel="stylesheet" href="/scss/dark-mode.min.f53596ac2d103afa8e6651c80028ba7be4217bfcb7ec22be66300f2342da59f6.css" integrity="sha256-9TWWrC0QOvqOZlHIACi6e&#43;Qhe/y37CK&#43;ZjAPI0LaWfY=" media="screen">
+
+
+<link rel="stylesheet"
+          href="https://fonts.googleapis.com/css?family=Material+Icons">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<body>
+    	<div id="app"><div class="single-column-drawer-container" id="drawer"
+     v-bind:class="{ 'single-column-drawer-container-active': isDrawerOpen }">
+    <div class="drawer-content">
+        <div class="drawer-menu">
+            
+            
+            
+                
+                
+                
+                    
+                
+                
+                
+                <a class="a-block drawer-menu-item active" href="/posts">
+                    Archive
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/categories">
+                    Categories
+                </a>
+                
+            
+                
+                
+                
+                
+                
+                <a class="a-block drawer-menu-item false" href="/tags">
+                    Tags
+                </a>
+                
+            
+            
+            <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 목차 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%ed%95%a0%ea%b2%8c%ec%97%86%eb%8b%a4" class="nav-할게없다">
+									할게없다
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%eb%93%9c%eb%9d%bc%eb%a7%88-" class="nav-드라마-">
+									드라마 ..?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%ec%98%81%ed%99%94-" class="nav-영화-">
+									영화 ..?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%eb%a7%a8%eb%82%a0-%ea%b7%b8%eb%9f%ac%eb%a9%b4-%ec%9c%a0%ed%8a%9c%eb%b8%8c%eb%83%90" class="nav-맨날-그러면-유튜브냐">
+									맨날 그러면 유튜브냐
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%ec%9b%b9%ed%88%b0-" class="nav-웹툰-">
+									웹툰 ..?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%eb%8f%8c%ea%b3%a0%eb%8f%8c%ec%95%84-%eb%a1%a4" class="nav-돌고돌아-롤">
+									돌고돌아 롤
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#3%ed%98%b8%ec%84%a0-%eb%a7%a4%eb%b4%89%ec%97%ad" class="nav-3호선-매봉역">
+									3호선 매봉역
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+            
+        </div>
+    </div>
+</div>
+<transition name="fade">
+    <div id="drawer-mask" v-bind:class="{ 'single-column-drawer-mask': mounted }" v-if="isDrawerOpen" v-on:click="toggleDrawer"></div>
+</transition>
+<nav id="navBar" class="navbar sticky-top navbar-light single-column-nav-container">
+    <div id="navBackground" class="nav-background"></div>
+    <div class="container container-narrow nav-content">
+        <button id="nav_dropdown_btn" class="nav-dropdown-toggle" type="button" v-on:click="toggleDrawer">
+            <i class="material-icons">
+                menu
+            </i>
+        </button>
+        <a id="navTitle" class="navbar-brand" href="https://blog.itsmyplanetary.me/">
+            Idea Planetary
+        </a>
+        
+        <button type="button" class="nav-darkmode-toggle" id="darkModeToggleButton2">
+            <i class="material-icons" id="darkModeToggleIcon2">
+                dark_mode
+            </i>
+        </button>
+        
+    </div>
+</nav>
+<div class="single-column-header-container" id="pageHead"
+     v-bind:style="{ transform: 'translateZ(0px) translateY('+.3*scrollY+'px)', opacity: 1-navOpacity }">
+    <a href="https://blog.itsmyplanetary.me/">
+        <div class="single-column-header-title">Idea Planetary</div>
+        
+
+    </a>
+</div>
+
+            <div id="content">
+                <div id="streamContainer" class="stream-container">
+
+    <div class="post-list-container post-list-container-shadow">
+        <div class="post">
+            
+            
+            
+
+            <div class="post-head-wrapper-text-only"
+                
+            >
+                <div class="post-title">
+                    뭐해야하지
+                    
+                    <div class="post-subtitle">
+                        또 롤해야지 뭐
+                    </div>
+                    
+                    <div class="post-meta">
+                        
+                        <time itemprop="datePublished">
+                            2024-12-21 18:21
+                        </time>
+                        
+
+                        
+                            <i class="material-icons" style="">folder</i>
+                                <a href="/categories/%EC%9D%BC%EA%B8%B0">일기</a>
+                                &nbsp;
+                        
+
+                        
+                            <i class="material-icons" style="">label</i>
+                            
+                                <a href="/tags/%EC%9D%BC%EC%83%81">일상</a>
+                                &nbsp;
+                            
+                        
+                        
+                    </div>
+                </div>
+            </div>
+            
+            <div class="post-body-wrapper">
+                
+                <div class="post-body" v-pre>
+                
+                    <h1 id="할게없다">할게없다</h1>
+<p>ㅇㅇ할게없다 게임도 질린다</p>
+<h2 id="드라마-">드라마 ..?</h2>
+<p>내가 지금 구독하고 있는 OTT가 넷플릭스, 애플 TV, 쿠팡 플레이 인데 드라마를 거의? 아니 본적이 단 한번 있는거 같다.</p>
+<p>사실 볼 용기가 안난다. 길고 한번 보면 또 내가 중간에 못끊는 성격이라 다봐야하고 그러고 나면 주말이 사라져있고.. 그래서 시작이 두렵다.</p>
+<h2 id="영화-">영화 ..?</h2>
+<p>그나마 잘 본다. 근데 이것도 시작이 어렵다. 보고 나면 드라마 보다 더 좋은 경험을 하는데 자주 안본다.</p>
+<h2 id="맨날-그러면-유튜브냐">맨날 그러면 유튜브냐</h2>
+<p>유튜브는 그나마 볼만한데 이것도 조차 잘 안본다. 그럼 나는 뭘하는거지</p>
+<h2 id="웹툰-">웹툰 ..?</h2>
+<p>이건 그냥 안 봄</p>
+<p> </p>
+<hr>
+<h1 id="돌고돌아-롤">돌고돌아 롤</h1>
+<p>아 그냥 롤 해야한다. 요즘 와우도 하고 있는데 와우? 재밌다 컨텐츠도 많고 수집할것도 많고.</p>
+<p>근데 그냥 뇌빼고 계속하기 좋은 게임이 롤인거 같다.</p>
+<p>주말 솔랭 전사 갑니다..</p>
+<p> </p>
+<hr>
+<h1 id="3호선-매봉역">3호선 매봉역</h1>
+<p>오늘의 추천 노래는 3호선 매봉역이다.</p>
+<p>프라이머리 특유의 비트와 멜로디, 거기에 굵고 낮은 팔로알토의 랩과 국힙원탑 빈지노(블랙넛 아님)의 랩이 진짜 잘 어울린다.</p>
+
+                    
+                    <HR width="100%" id="EOF">
+		    <p style="color:#777;">최종 수정: 2024-12-21</p>
+                    
+                </div>
+            </div>
+            
+            
+            <nav class="post-pagination">
+
+                
+                <a class="newer-posts" href="/posts/241222/">
+			다음글<br>하 또 
+                </a>
+                
+                
+                
+                <a class="older-posts" href="/posts/241220/">
+			이전글<br>끝
+                </a>
+                
+            </nav>
+            <div class="post-comment-wrapper">
+                
+                <p style="opacity: 0.6" align="center">
+                    <small>댓글 비활성화.</small>
+                </p>
+                
+            </div>
+        </div>
+    </div>
+
+
+                    </div>
+            </div><div id="sideContainer" class="side-container">
+    
+    <a class="a-block nav-head false" href="https://blog.itsmyplanetary.me/">
+    
+        <div class="nav-title">
+            Idea Planetary
+        </div>
+        
+    </a>
+
+    <div class="nav-link-list">
+        
+        
+            
+            
+            
+                
+            
+            
+            
+            <a class="a-block nav-link-item active" href="/posts">
+                Archive
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/categories">
+                Categories
+            </a>
+            
+        
+            
+            
+            
+            
+            
+            <a class="a-block nav-link-item false" href="/tags">
+                Tags
+            </a>
+            
+        
+    </div>
+
+    
+
+    <div class="nav-footer">
+        
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2024 Idea Planetary
+	
+
+    </div>
+    
+</div><div id="extraContainer" class="extra-container">
+    <div class="toc-wrapper">
+        
+
+        
+        <div class="toc">
+
+
+	<div class="toc-content">
+	
+		
+		
+		
+		<center>- 목차 -</center>
+		
+		
+		<ul>
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%ed%95%a0%ea%b2%8c%ec%97%86%eb%8b%a4" class="nav-할게없다">
+									할게없다
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+							
+								
+									<ul>
+								
+							
+						
+						
+							<li>
+								<a href="#%eb%93%9c%eb%9d%bc%eb%a7%88-" class="nav-드라마-">
+									드라마 ..?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%ec%98%81%ed%99%94-" class="nav-영화-">
+									영화 ..?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%eb%a7%a8%eb%82%a0-%ea%b7%b8%eb%9f%ac%eb%a9%b4-%ec%9c%a0%ed%8a%9c%eb%b8%8c%eb%83%90" class="nav-맨날-그러면-유튜브냐">
+									맨날 그러면 유튜브냐
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#%ec%9b%b9%ed%88%b0-" class="nav-웹툰-">
+									웹툰 ..?
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+							
+								</ul>
+							
+						
+						
+						
+							<li>
+								<a href="#%eb%8f%8c%ea%b3%a0%eb%8f%8c%ec%95%84-%eb%a1%a4" class="nav-돌고돌아-롤">
+									돌고돌아 롤
+								</a>
+							</li>
+						
+						
+					
+				
+			
+				
+				
+					
+						
+						
+						
+						
+						
+							<li>
+								<a href="#3%ed%98%b8%ec%84%a0-%eb%a7%a4%eb%b4%89%ec%97%ad" class="nav-3호선-매봉역">
+									3호선 매봉역
+								</a>
+							</li>
+						
+						
+					
+				
+			
+		</ul>
+	</div>
+
+</div>
+        
+    </div>
+    <div class="pagination">
+        <a id="globalBackToTop" class="pagination-action animated-visibility" href="#top"
+            :class="{ invisible: scrollY == 0 }">
+            <i class="material-icons pagination-action-icon">
+                keyboard_arrow_up
+            </i>
+        </a>
+        
+        <a type="button" class="pagination-action" id="darkModeToggleButton">
+            <span class="material-icons pagination-action-icon" id="darkModeToggleIcon">
+                dark_mode
+            </span>
+        </a>
+        
+        
+    </div>
+</div>
+
+<div id="single-column-footer">
+Hugo Theme <a href="https://github.com/amazingrise/hugo-theme-diary">Diary</a> by <a href="https://risehere.net/">Rise</a>
+<br>
+Ported from <a href="https://mak1t0.cc/" target="_blank" rel="noreferrer noopener">Makito</a>'s <a href="https://github.com/SumiMakito/hexo-theme-journal/" target="_blank" rel="noreferrer noopener">Journal.</a> <br>
+<br>
+
+&copy;
+	
+	2024 Idea Planetary
+	
+</div>
+            </div>
+    
+    <script src="/js/journal.js"></script></body>
+</html>

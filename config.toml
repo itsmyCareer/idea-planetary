@@ -4,6 +4,8 @@ languageCode = 'ko-kr'
 title = 'Idea Planetary'
 theme = 'diary'
 
+[params]
+favicon = "/images/favicon.ico"
 
 [taxonomies]
    category = "categories"
